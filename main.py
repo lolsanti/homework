@@ -16,15 +16,26 @@
 
 ############################################
 
-#s = input("введи рядок: ")
-#ch = input("введи символ: ")
+#s = input("введите рядок: ")     #s = "c:User/Documet/My_folder/image001.jpg" Сделал доп перем для себя они не нужны
+#ch = input("введите символ: ")   #ch = 'e' их можно удалить
+#for letter in s:
+    #if letter in ch:
+        #print(letter)
 
-#for i in range(len(s)):
-    #if s[i] == ch:
-        #print(i)
+############сделал#########################
 
-#############################################
+#first_h = s.find('h')
+#last_h = s.rfind('h')
 
-#my_str = 'hhhhh'
-#my_str = my_str[0] + my_str[1:-1].replace('h', 'H') + my_str[-1]
-#print(my_str)  # индийский код
+#result = s[:first_h+1] + s[first_h+1:last_h].upper() + s[last_h:]
+#print(result)
+
+########################это было сложновато я как дурак делал  ########################
+
+#s = 'ahhhhha'
+#first_h = s.find('h')
+#last_h = s.rfind('h')
+#middle = s[first_h+1:last_h]
+#middle = middle.replace('h', 'H')
+#result = s[:first_h+1] + middle + s[last_h:]
+#print(result)
