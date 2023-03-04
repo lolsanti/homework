@@ -16,11 +16,12 @@
 
 ############################################
 
-#s = input("введите рядок: ")     #s = "c:User/Documet/My_folder/image001.jpg" Сделал доп перем для себя они не нужны
-#ch = input("введите символ: ")   #ch = 'e' их можно удалить
-#for letter in s:
-    #if letter in ch:
-        #print(letter)
+#s = input("введи строку: ")                                                             #s = "hello world"
+#ch = input("введи символ который хочешь найти: ")                                       #ch = 'l'
+#index = s.find(ch)
+#while index != -1:
+    #print(f"Нашел {ch} в индаксе {index}")
+    #index = s.find(ch , index + 1)
 
 ############сделал#########################
 
